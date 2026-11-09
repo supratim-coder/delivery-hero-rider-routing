@@ -4,10 +4,17 @@ Hybrid heuristic + MIP solution for the Vehicle Routing Problem with Pickup and 
 (time windows, rider capacity, max 4 orders per rider, 180 min shift), minimising the sum of
 delivery times. MIP solver: SCIP (via PySCIPOpt), as required by the challenge rules.
 
-![Riders delivering orders across a cartoon city](media/preview.gif)
+## Videos
+**Team presentation (9 min):** the problem, our approach and why, the code, and the decision
+variables, objective and constraints. Presented by Abhishek Dey, Keshav Garg and Supratim Mukherjee
+for Advanced Optimisation for Managers.
+[media/team-presentation-9min.mp4](media/team-presentation-9min.mp4)
 
-**Watch the 1.5-minute plain-English explainer (with voice-over):**
+**Plain-English version (1.5 min, voice-over):** the same problem explained for a non-technical
+audience.
 [media/rider-routing-explained.mp4](media/rider-routing-explained.mp4)
+
+![Riders delivering orders across a cartoon city](media/preview.gif)
 
 ## The problem in plain English
 You order a burger. Somewhere, a rider has to be picked to collect it from the restaurant and
